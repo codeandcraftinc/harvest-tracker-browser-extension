@@ -13,7 +13,8 @@ tracking and review.
 
 ## Installation
 
-Visit the Chrome Webstore to install the latest version to your browser.
+Visit the [Chrome Webstore](https://chrome.google.com/webstore) to install the
+latest version to your browser.
 
 
 
@@ -21,8 +22,8 @@ Visit the Chrome Webstore to install the latest version to your browser.
 
 - clone this repository and `cd` into it
 - run `npm install` to get the dependencies
-- run `gulp` to kick off `webpack`
+- run `gulp` to build the extension
 - in your Chrome extensions tab, enable "developer mode", then click the
-  "load unpacked extension..." button and select the directory where you
-  cloned this repository
+  "load unpacked extension..." button and select the `dist/` directory within
+  the location where you cloned this repository
 - navigate to a PivotalTracker project in your browser and voilá!
