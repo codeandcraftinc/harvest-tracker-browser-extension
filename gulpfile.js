@@ -1,5 +1,6 @@
 var del = require('del');
 var gulp = require('gulp');
+var zip = require('gulp-zip');
 var gutil = require('gulp-util');
 var webpack = require('webpack');
 var runSequence = require('run-sequence');
@@ -35,6 +36,16 @@ gulp.task('webpack', function (done) {
 gulp.task('copy', function () {
   return gulp.src('lib/resources/*')
     .pipe(gulp.dest('dist'));
+});
+
+/**
+ *
+ */
+
+gulp.task('zip', ['default'], function () {
+  return gulp.src('dist/*')
+    .pipe(zip('dist.zip'))
+    .pipe(gulp.dest('.'));
 });
 
 /**
