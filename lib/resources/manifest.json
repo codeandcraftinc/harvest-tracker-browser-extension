@@ -4,7 +4,7 @@
   "description": "The missing link between Harvest and PivotalTracker.",
   "author": "Michael Giuliana <mike@codeandcraft.nyc>",
   "homepage_url": "https://www.github.com/codeandcraftnyc/harvest-tracker-browser-extension",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "icons": {
     "16": "icon16.png",
     "48": "icon48.png",

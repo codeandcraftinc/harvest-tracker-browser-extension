@@ -1,6 +1,6 @@
 {
   "name": "harvest-tracker-browser-extension",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "The missing link between Harvest and PivotalTracker.",
   "main": "gulpfile.js",
   "dependencies": {},
@@ -13,6 +13,8 @@
     "del": "^2.0.2",
     "file-loader": "^0.8.4",
     "gulp": "^3.9.0",
+    "gulp-conventional-changelog": "^0.7.0",
+    "gulp-uglify": "^1.4.1",
     "gulp-util": "^3.0.6",
     "gulp-zip": "^3.0.2",
     "jquery": "^2.1.4",

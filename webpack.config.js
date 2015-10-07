@@ -17,12 +17,5 @@ module.exports = {
       test: /\.png$/,
       loaders: ['url']
     }]
-  },
-  plugins: [
-    new webpack.optimize.UglifyJsPlugin({
-      compress: {
-        warnings: false
-      }
-    })
-  ]
+  }
 };
